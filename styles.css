@@ -61,6 +61,50 @@ h2 {
     color: #333; /* Títulos em cinza escuro */
 }
 
+/* Estilos preparo */
+.coffee-experience {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 2rem;
+    background-color: #f9f5f0;
+    border-radius: 8px;
+}
+
+.coffee-text {
+    flex: 1;
+}
+
+.coffee-text h2 {
+    color: #5c3a21;
+    margin-bottom: 1.5rem;
+}
+
+.coffee-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #5c3a21;
+}
+
+.coffee-maker-img {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .coffee-experience {
+        flex-direction: column;
+    }
+    
+    .coffee-maker-img {
+        max-width: 100%;
+        margin-top: 1.5rem;
+    }
+}
+
 /* Grade do Cardápio Resumido */
 .menu-grid {
     display: grid;
